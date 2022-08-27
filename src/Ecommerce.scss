@@ -1,0 +1,30 @@
+/* Color Variables */
+$color-pink: #ff6262;
+$color-green: #2dce6f;
+$color-orange: #d5882e;
+$color-light-gray: #eef0f2;
+$color-dark-gray-1: #abb2ba;
+$color-dark-gray-2: #717171;
+$color-dark-gray-2: #3d5278;
+
+* {
+  &,
+  &::before,
+  &::after {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #eef0f2;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  background-color: #fff;
+}

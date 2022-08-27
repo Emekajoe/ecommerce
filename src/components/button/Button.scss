@@ -1,0 +1,38 @@
+/* Color Variables */
+$color-pink: #ff6262;
+$color-green: #2dce6f;
+$color-orange: #d5882e;
+$color-light-gray: #eef0f2;
+$color-dark-gray-1: #abb2ba;
+$color-dark-gray-2: #717171;
+$color-dark-gray-2: #3d5278;
+
+.btn {
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  border: 1px solid $color-dark-gray-1;
+  text-transform: capitalize;
+  color: $color-dark-gray-2;
+  background-color: #fff;
+  box-shadow: 0rem 0rem 0.7rem rgba(0, 0, 0, 0.4);
+
+  &--load-more {
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    display: inline-block;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.4rem rgb(0, 0, 0, 0.1);
+    margin: 3rem 0;
+    padding: 1rem 0;
+  }
+  &--load-short {
+    width: 80rem;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
